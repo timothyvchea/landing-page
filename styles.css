@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab&display=swap');
+  body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+    ;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+    border-bottom: #000000 inset;
+}
+
+.header-logo{
+    color: #F9FAF8;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    margin-left: 50px;
+    text-shadow: 5px 5px 9px #000000;
+    
+}
+.header-logo:hover{
+    text-shadow: 20px 20px 40px #000000;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+.header-links{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-right: 100px;
+    text-shadow: 5px 5px 9px #000000;
+}
+.about-link:hover{
+    text-shadow: 10px 10px 20px #000000;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+.portfolio-link:hover{
+    text-shadow: 10px 10px 20px #000000;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+.contact-link:hover{
+    text-shadow: 10px 10px 20px #000000;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+
+a{color: inherit}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+.main-body{
+    display: flex;
+    position: relative;
+    width: auto;
+    flex-wrap: wrap;    
+    flex-direction: row-reverse;
+    background-color: #13161b;
+}
+.main-body .card1{
+    position: relative;
+    max-width: auto;
+    margin: 50px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-body .card1 .content1{
+    margin: 20px;
+    text-align: center;
+}
+.main-body .card1 .image1box{
+    text-align: right;
+ 
+}
+.main-body .card1 .image1box img{
+    max-width: auto;
+    height: 500px;
+    flex: 0 0 auto;
+    vertical-align: top;
+    border-radius: 12px;
+}
+@media (max-width: 991px){
+    .main-body{
+        flex-direction: column;
+    }
+    .main-body .card1{
+        flex-direction: column;
+        max-width: 350px;
+    }
+    .main-body .card1 .image1box{
+        max-width: 100%;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding:50px
+    }
+}
+.main-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 1000;
+    text-shadow: 10px 10px 20px #000000;
+}
+.para1{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.button1{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+.button1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #2a61b9;
+}
+.skills-page{
+    background-image: url(images/image3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto
+}
+.skills-header{
+    text-align: center;
+    padding: 30px;
+    margin-top: 0px;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color:#E5E7EB;
+    font-size: 32px;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+.htmllogo{
+    max-width: 300px;
+    height: 300px;
+}
+.csslogo{
+    max-width: 300px;
+    height: 300px;
+}
+.supportlogo{
+    max-width: 300px;
+    height: 300px;
+}
+.htmltext{
+    color: #F9FAF8;
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+
+}
